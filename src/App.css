@@ -1,38 +1,179 @@
-.App {
-  text-align: center;
+.item {
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 5px;
+    font-size: 20px;
+    padding-left: 10px;
+    transition: all .2s ease-in;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-control:focus {
+    box-shadow: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cont {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px
 }
 
-.App-link {
-  color: #61dafb;
+.desc {
+    height: 40px;
+    resize: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item:hover {
+    box-shadow: 10px 10px 10px 0 grey;
+    transition: all .2s ease-in;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 9px;
+    font-weight: bolder;
+    transition: all .2s ease-in;
+}
+
+.button:hover {
+    transition: all .2s ease-in;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button-1 {
+    background-color: #0275d8;
+}
+
+.button-1:hover {
+    background-color: #5bc0de;
+}
+
+.button-2 {
+    background-color: #5cb85c;
+}
+
+.button-2:hover {
+    background-color: hsl(130, 49%, 72%);
+}
+
+.button-3 {
+    background-color: #d9534f;
+}
+
+.button-3:hover {
+    background-color: hsl(29, 78%, 73%);
+}
+
+.button-4 {
+    background-color: #ffc107;
+}
+
+.button-4:hover {
+    background-color: #ffe494;
+}
+
+.button-5 {
+    background-color: #4e95ff;
+}
+
+.button-5:hover {
+    background-color: #99c2ff;
+}
+
+.button-6 {
+    background-color: #fd7e14;
+}
+
+.button-6:hover {
+    background-color: hsl(29, 78%, 73%);
+}
+
+.button-7 {
+    background-color: #dd6571;
+}
+
+.button-7:hover {
+    background-color: #ff8f9a;
+}
+
+.button-8 {
+    background-color: #4bbe89;
+}
+
+.button-8:hover {
+    background-color: #a4ffd5;
+}
+
+.button-9 {
+    background-color: #e9c148;
+}
+
+.button-9:hover {
+    background-color: #ebdf9f;
+}
+
+h3 {
+    padding: 5px;
+    border-radius: 9px;
+}
+
+.bold {
+    color: #5cb85c;
+}
+
+.addContainer {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 2px 2px 0 grey;
+}
+
+#category .option {
+    border-radius: 9px;
+    margin-top: 20px;
+}
+
+.todoContainer {
+    display: grid;
+    grid-template-columns: 1fr 30fr;
+    grid-column-gap: 0;
+    flex-wrap: wrap;
+    transition: all .3s ease-in-out;
+}
+
+.todoContainer .item {
+    width: 95%;
+    /* margin-left: 60px; */
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-left: 0;
+}
+
+.todoContainer .btn {
+    width: 50px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 2px solid black;
+}
+
+.pannel {
+    display: flex;
+    flex-wrap: wrap;
 }
