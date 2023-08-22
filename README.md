@@ -1,16 +1,17 @@
 # Todo App
-This cool **Todo App** is made by **Jay Sanjay Karia** with **React.js**
+## A Simple and Cool todo app made from React.js as a learning project 😎
 
-> Organize your taily tasks in one simgle app
+### Functionalities:
+ - > Organize your daily tasks in one simple app
 
-> Instantly add Todos
+ - > Instantly add Todos
 
-> 4 different filters are availble for your todos
+ - > 4 different filters are available for your todos
 
-### Functions
-- Add a todo
-- Delete a todo
-- Edit a todo
-- Mark as done
-- Mark as undone
-- Add categories to your todos
+### Features
+- Add a todo ➕
+- Delete a todo ❌
+- Edit a todo ✏
+- Mark as done ✅
+- Mark as undone ❎
+- Add categories to your todos 📁
